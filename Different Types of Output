@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class DifferentTypesOfInput {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Give a string:");
+        String userInput1 = String.valueOf(scanner.nextLine());
+
+        System.out.println("Give an integer:");
+        int userInput2 = Integer.valueOf(scanner.nextLine());
+
+        System.out.println("Give a double:");
+        double userInput3 = Double.valueOf(scanner.nextLine());
+
+        System.out.println("Give a boolean:");
+        boolean userInput4 = Boolean.valueOf(scanner.nextLine());
+
+
+        System.out.println("You gave the string " + userInput1);
+        System.out.println("You gave the integer " + userInput2);
+        System.out.println("You gave the double " + userInput3);
+        System.out.println("You gave the boolean " + userInput4);
+
+
+    }
+}
